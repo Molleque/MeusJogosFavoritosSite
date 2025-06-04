@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #f4f4f4;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Faz o header ocupar a tela inteira*/
+  background: #433976;
+  color: #fff;
+
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 10px; /*Espaçamento entre os itens*/
+}
+
+nav ul li {
+  margin: 0;
+}
+
+.menu-square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 100px;
+  border: 2px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.menu-square:hover {
+  background: #fff;
+  color: #433976;
+}
+
+.section {
+  padding: 100px 20px;
+  text-align: center;
+  min-height: 100vh;
+  background: #e0e0e0;
+}
+
+#home {
+  background: #f4f4f4;
+}
+
+#contato {
+  background: #c0c0c0;
+}
+
+#gaveta {
+  display:inline-flex;
+  margin-bottom: 20px;
+  margin-inline: 7px;
+  width: 38%;
+  align-items: center;
+  background-color:aliceblue ;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.jogos img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
